@@ -47,12 +47,14 @@ and export your current env:
 ## Develop in a container
 
 **In the command line, go to the root-directory of the project.**
+
 Build the image by:
 `docker build -t my-python-app .`
 
 
 ### MacOS/Linux
 Enter the containers shell with your app mounted into app by:
+
 `docker run --rm -v $(pwd)/app:/app -it my-python-app bash`
 
 ### Windows
